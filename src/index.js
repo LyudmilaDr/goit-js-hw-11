@@ -1,7 +1,9 @@
-// import './css/styles.css';
-// import Notiflix from 'notiflix';
-// import axios from 'axios';
-// import { fetchPhoto } from './fetchPhoto';
+import './css/styles.css';
+import Notiflix from 'notiflix';
+import axios from 'axios';
+import { fetchPhoto } from './fetchPhoto';
+import SimpleLightbox from "simplelightbox";
+import "simplelightbox/dist/simple-lightbox.min.css";
 
 
 
