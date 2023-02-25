@@ -1,0 +1,82 @@
+body {
+    background-color:#808080;
+  }
+.header{
+    background-color: #242465;
+    display: block;
+    width: 100%;
+    position: fixed;
+  }
+.search-form{
+    position: relative;
+    text-align: center;
+    padding-top: 30;
+    padding-bottom: 30;
+}
+.form-input{
+    position: relative;
+    background-color:#d9d9d9;;
+    color: black;
+    font-size: 18px;
+    padding-left: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 25%;
+    height: 40px;
+  }
+.load-more{
+    color:#d9d9d9;
+    background-color: #242465;
+    padding-left: 0;
+
+}
+img {
+    display: block;
+    width: 100%;
+  }
+.form-btn {
+    position: inherit;
+    cursor: pointer;
+    top: 2px;
+    left: -65px;
+    border: none;
+    background-color:#d9d9d9;
+  }
+  
+  .load-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 50px auto;
+    width: 140px;
+    height: 40px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 50px 10px 0;
+    margin: 0 auto;
+  }
+  .photo-card {
+    background-color: rgba(217, 217, 217);
+    border: 0.2px solid #727272;
+    border-radius: 1px;
+    overflow: hidden;
+    width: calc((100% - 30px) / 4);
+  }
+  
+  .info {
+    display: flex;
+    justify-content: baseline;
+    gap: 5px;
+    border-top: 1px solid #727272;
+  }
+  
+  .info-item {
+    display: flex;
+    padding: 2px;
+  }
+  
